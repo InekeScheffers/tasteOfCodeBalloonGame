@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Mr+Dafoe);
+
+@media screen and (min-width: 480px) {
+  body {
+  background-image: url("http://i.imgur.com/rfol28Y.png");
+  background-size: cover;
+
+}
+
+.counter {
+  position: absolute; bottom: 1%; right: 1%; text-align: right;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 200px;
+  color: #EB219B;
+  -webkit-text-fill-color: rgba(253, 90, 250, 1);
+  text-shadow: -2px -2px 0 #FFBAF2;
+  -webkit-filter: drop-shadow(3px 3px 1px #441F62);
+  -webkit-transform: skew(-5deg,-5deg);
+  font-weight: normal;
+  z-index: 2;
+  margin-left: 60px;
+  padding-left: 50px;
+  padding-right: 70px;
+}
+
+.balloon {
+  position:absolute;
+  bottom: 0;
+}
+
+.inflatable {
+  width: 180px;
+  height: 200px;
+  background-image: url("http://blog.patternbank.com/wp-content/uploads/2014/03/Glass-Bones-Subconscious-Patterns-09-700x910.jpg");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.string {
+  width: 1px;
+  height: 100px;
+  background-color: black;
+  margin-left: 90px;
+}
+}
